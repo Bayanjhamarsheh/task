@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>task1</title>
+<style>
+      .center {
+        text-align: center;
+      }
+    </style>
+</head>
+<body style="background-color:AntiqueWhite;">
+
+<div class="center"> 
+    <img src="personal1.jpg" width="125" height="125">
+    <h1 style="color:PaleVioletRed ; font-size:210%;" >  Interests survey form </h1>
+    <label for="name" >Enter your name:</label>
+    <input type="text" id="name" ><br><br>
+    <label for="email">Enter your email:</label>
+    <input type="email" id="passworde" ><br><br>
+    <label for="info"> &ensp;&ensp;Tell us about you:</label>
+   <textarea input tybe="text" id="info" cols="25" rows="4" > </textarea><br><br>
+   
+   
+ <label for="exe"> Do you exercise at home?</label>
+  <input type="radio" id="exe" >Yes
+  <input type="radio" id="exe" >No<br><br>
+  <label for="fav">How do you like to raed about your favorite topics?</label><br>
+   <input type="checkbox" id="fav" >
+  <label for="fav"> Books</label>
+  <input type="checkbox" id="fav">
+  <label for="fav">Online resources</label>
+  <input type="checkbox" id="fav" >
+  <label for="fav"> phone apps</label>
+  <input type="checkbox" id="fav" >
+  <label for="fav"> magazines</label><br><br>
+  <label for="film">what genre of movies do you like?</label>
+  <select id="mov" name="mov">
+    <option value="comedy">comedy</option>
+    <option value="romance">romance</option>
+    <option value="thriller">thriller</option>
+    <option value="horror">horror</option>
+  </select><br><br>
+ <input type="button" value="submit form"><br><br>
+ <p> Learn more about us:</p>
+ <video width="320" height="240" controls>
+ <source src="ieee.mp4" type="video/mp4">
+ </video>
+ </div>
+
+</body>
+</html>
